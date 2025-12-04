@@ -1,0 +1,38 @@
+
+.navbar {
+    background-color: hsl(0, 0%, 0%);
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 5em;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+overflow: hidden;
+display: flex;
+justify-content: right;
+}
+ul li{
+    overflow: left;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 17px;
+    color: white;
+    position: left;
+    display: block;
+    padding: 14px 16px;
+    
+}
+.navbar a:hover{
+    color: hsl(131, 100%, 58%);
+    font-size: 1.2em;
+}
+
