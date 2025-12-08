@@ -1,9 +1,12 @@
+/*navigation bar*/
 
 .navbar {
     background-color: hsl(0, 0%, 0%);
     padding: 0%;
     margin: 0%;
     justify-content: space-between;
+    font-family: cursive;
+    font-size: 1.2em;
 }
 
 .logo{
@@ -35,4 +38,114 @@ ul li{
     color: hsl(131, 100%, 58%);
     font-size: 1.2em;
 }
+
+/*main pic with the title */
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-title{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    font-family:cursive ,Inter, roboto, open sans, arial ;
+    
+    text-shadow: 0px 4px 12px rgba(0,0,0,0.45);
+    white-space: nowrap;
+}
+
+/*our story*/
+
+.our-story{
+padding: 40px;
+text-align:center ;
+font-family: cursive;
+}
+
+.our-story h2{
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.our-story p{
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+/*activities*/
+
+.Activities{
+padding: 40px;
+}
+
+.Activities-card1{
+    display: flex;
+    background: #e1e1e1; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    line-height: 1.7;
+    font-family: cursive ;
+    font-size: 1.2em;
+    
+}
+
+.activities-card-img1{
+    width:40%;
+    margin-left:20px;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+
+.activities-card-img2{
+    width:40%;
+    margin-left:20px;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+
+/*tasks*/
+
+.tasks-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 10px;
+    margin-left: 10%;
+    margin-top:5% ;
+    
+}
+
+.row{
+    text-align: center;
+}
+.task-icon{
+   width: 13em;
+   height: 13em;
+}
+
+.task p{
+    font-family: cursive;
+    font-size: 1.3em;
+    
+}
+
 
